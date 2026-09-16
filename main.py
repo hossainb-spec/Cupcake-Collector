@@ -42,7 +42,7 @@ cupcakes = [
     pygame.Rect(520, 310, 30, 30),
     pygame.Rect(250, 240, 30, 30),
     pygame.Rect(450, 190, 30, 30),
-    pygame.Rect(80, 310, 30, 30),
+    pygame.Rect(180, 310, 30, 30),
     pygame.Rect(300, 310, 30, 30),
     pygame.Rect(550, 310, 30, 30)
 ]
@@ -110,7 +110,7 @@ async def main():
                 cupcakes.remove(cupcake)
                 score += 1
 
-        screen.fill((20, 24, 40))
+        screen.fill((135, 206, 235))
 
         for platform in platforms:
             pygame.draw.rect(
